@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 50px;
+    background-color: #1a1a2e; 
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #ff79c6; 
+    text-shadow: 0 0 8px #ff79c6, 0 0 16px #ff79c6, 0 0 24px #ff79c6, 0 0 32px #ff79c6;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.6), 0 0 6px rgba(255, 255, 255, 0.8), 0 0 12px rgba(0, 255, 255, 0.6), 0 0 18px rgba(0, 255, 255, 0.8);
+    font-size: 8vmin;
+    color: #fff;
+    background-color: #2e2e63;
+    transition: all 0.1s ease-in-out;
+}
+
+.box:hover {
+    background-color: #50fa7b; 
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.6), 0 0 6px rgba(255, 255, 255, 0.8), 0 0 12px rgba(0, 255, 0, 0.6), 0 0 18px rgba(0, 255, 0, 0.8);
+}
+
+.reset {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #ffb86c; 
+    color: white;
+    box-shadow: 0 0 6px rgba(255, 184, 108, 0.6), 0 0 12px rgba(255, 184, 108, 0.8);
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.reset:hover {
+    background-color: #ff5555; 
+    box-shadow: 0 0 8px rgba(255, 85, 85, 0.6), 0 0 16px rgba(255, 85, 85, 0.8);
+}
+
+.new {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #ffb86c; 
+    color: white;
+    box-shadow: 0 0 6px rgba(255, 184, 108, 0.6), 0 0 12px rgba(255, 184, 108, 0.8);
+    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+.new:hover {
+    background-color: #ff5555; 
+    box-shadow: 0 0 8px rgba(255, 85, 85, 0.6), 0 0 16px rgba(255, 85, 85, 0.8);
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 5vmin;
+    color: #ff79c6; 
+    text-shadow: 0 0 8px #ff79c6, 0 0 16px #ff79c6, 0 0 24px #ff79c6, 0 0 32px #ff79c6;
+}
+
+.hide {
+    display: none;
+}
